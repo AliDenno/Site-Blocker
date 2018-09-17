@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Website Blocker", "Website Blocker\Website Blocker.pyproj", "{8BF858BB-449B-460C-8AC5-AC405399DC94}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8BF858BB-449B-460C-8AC5-AC405399DC94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BF858BB-449B-460C-8AC5-AC405399DC94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FCCA55D2-78FE-4DCB-881A-3FFCF1AB1F39}
+	EndGlobalSection
+EndGlobal
