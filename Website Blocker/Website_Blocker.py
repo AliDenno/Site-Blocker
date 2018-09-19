@@ -17,5 +17,11 @@ while True:
                 else:
                     file.write(redirect+" "+website+"\n")
     else:
+        with open(hosts_temp,'r+') as file:
+            content=file.readlines()
+            file.seek(0)
+            for line in content:
+                if not any(website in line for website in website_list):
+                    file.write(line)
         print("Fun hours...")
     time.sleep(5)
