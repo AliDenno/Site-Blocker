@@ -1,6 +1,8 @@
 import time
 from datetime import datetime as dt
 
+# Changing the extension from .py to .pyw will allow you to run it in the background but you need admin rights 
+# From task scheduler you can run it at startup
 
 hosts_temp=r"hosts\hosts" # Dummy Test File
 hosts_path=r"C:\Windows\System32\drivers\etc\hosts" # Actual File
@@ -8,6 +10,7 @@ redirect="127.0.0.1" # Redirect IP
 website_list=["www.facebook.com","facebook.com","dub119.mail.live.com","www.dub119.mail.live.com"]
     
 while True:
+    # Between 8 & 16 
     if dt(dt.now().year,dt.now().month,dt.now().day,8) < dt.now() < dt(dt.now().year,dt.now().month,dt.now().day,16):
         print("Working hours...")
         with open(hosts_temp, 'r+') as file:
