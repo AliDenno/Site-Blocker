@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>8bf858bb-449b-460c-8ac5-ac405399dc94</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Website_Blocker.py</StartupFile>
+    <StartupFile>GUI.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,6 +21,9 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="GUI.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Website_Blocker.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
